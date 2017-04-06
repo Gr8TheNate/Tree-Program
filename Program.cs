@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Tree_Program
 {
@@ -23,8 +20,6 @@ namespace Tree_Program
 
             file.Close();
             
-
-            //int[] array = { 10, 12, 7, 9, 13, 8, 2, 15, 7, 1};
             Tree t = new Tree();
             t.checkOperatingStatistics(array);
             Console.ReadLine();
